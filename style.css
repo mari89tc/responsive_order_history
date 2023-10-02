@@ -3,8 +3,8 @@ html {
   --secondary-color: rgb(24, 23, 23);
   --accent-color: #023839;
   --font-size-lg: 3.998rem;
-  --font-size-md: 1.2rem;
-  --font-size-sm: 1rem;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 1.2rem;
 }
 
 /* Fonts */
@@ -36,7 +36,7 @@ p {
 }
 /* style */
 main {
-  margin: 50px;
+  margin: 75px;
 }
 .card {
   background-color: var(--primary-color);
@@ -58,6 +58,7 @@ svg {
 .headline {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .but-class {
   display: flex;
@@ -71,13 +72,14 @@ button {
   font-weight: 400;
   background-color: var(--accent-color);
   color: var(--primary-color);
-  padding: 5px;
+  padding: 15px;
   border: 1px solid var(--accent-color);
   margin: 5px;
 }
 /* Layout */
 .card-wrapper {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  padding: 100px;
 }
 
 main {
@@ -88,6 +90,7 @@ main {
   & .layout-grid {
     display: flex;
     gap: 30px;
+    padding: 20px;
   }
   & .buttons {
     display: flex;
